@@ -9,9 +9,10 @@ Un programmino ~~stupido~~ per prendere i link dei video delle lezioni dal team 
 Basta scaricare l'exe dalla repo ed eseguirlo. 
 
 Verrà chiesto il link alla sezione dei video del Team su Stream e si aprirà una pagina di Chrome, quindi:
- 1. Ordina per Data i video su Stream
- 2. Scendi giù finchè non finiscono i video
- 3. Chiudi la pagina
+1. Ordina per Data i video su Stream
+2. Scendi giù finchè non finiscono i video
+3. Chiudi la pagina
+
 Fatto ciò potrai trovare i link ordinati per Data nella stessa cartella del programma.
 
 ### Perché?
