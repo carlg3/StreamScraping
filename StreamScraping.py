@@ -1,5 +1,3 @@
-# Problemi: se lo eseguo come .exe da CMD, senza cliccarci due volte su, dà errore perché secondo lui non passo il giusto path a chromedriver
-# 
 import os.path, sys
 # import chromedriver_binary # togli il commento se usi il .py
 from selenium import webdriver
@@ -21,13 +19,6 @@ def main():
     url = input()
     print("Preso!")
 
-    '''
-    if getattr(sys, 'frozen', False):
-        application_path = os.path.dirname(sys.executable)
-    elif __file__:
-        application_path = os.path.dirname(__file__)
-    '''
-    
     application_path_nr = os.path.dirname(__file__)
     application_path = resource_path(os.path.dirname(__file__))
     chrome_path = os.path.join(application_path, 'selenium','webdriver','chromedriver.exe')
